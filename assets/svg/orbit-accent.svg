@@ -1,0 +1,16 @@
+﻿<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="novaGrad" x1="0" y1="0" x2="420" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#A200FF"/>
+    </linearGradient>
+  </defs>
+  <circle cx="210" cy="210" r="110" stroke="url(#novaGrad)" stroke-opacity="0.8" stroke-width="2" />
+  <circle cx="210" cy="210" r="162" stroke="url(#novaGrad)" stroke-opacity="0.35" stroke-width="1" />
+  <path d="M55 210C55 123.843 123.843 55 210 55" stroke="url(#novaGrad)" stroke-width="4" stroke-linecap="round">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 210 210" to="360 210 210" dur="10s" repeatCount="indefinite"/>
+  </path>
+  <path d="M365 210C365 296.157 296.157 365 210 365" stroke="url(#novaGrad)" stroke-width="4" stroke-linecap="round">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="360 210 210" to="0 210 210" dur="12s" repeatCount="indefinite"/>
+  </path>
+</svg>
