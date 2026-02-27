@@ -155,12 +155,15 @@ a {
 .loader {
   position: fixed;
   inset: 0;
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
   z-index: 2500;
   background: #070707;
   transition: opacity 0.5s ease, visibility 0.5s ease;
+  text-align: center;
 }
 
 .loader.hidden {
@@ -175,6 +178,10 @@ a {
   border-top-color: var(--color-cyan);
   border-radius: 50%;
   animation: spin 1s linear infinite;
+}
+
+.loader__text {
+  margin: 0;
 }
 
 @keyframes spin {
